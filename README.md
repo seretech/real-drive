@@ -17,7 +17,6 @@ After the pickup and drop off location has been the selected the user then confi
 If a driver is not found the user can click on retry to search again, once a driver is found the user is presented with the detail of the driver as well as a notification with all relevant information, the user can then proceed to confirm the ride.
 
 **NOTE**
-
 According to the task use case the first time a ride is confirm a countdown of 15 seconds is started to simulate a no driver found interface only when the retry button is clicked will driver be returned.
 
 Once a ride is in progress another ride cannot be initiated, the in-progress ride needs to be completed before another ride can be initiate.
