@@ -26,10 +26,15 @@ get: ^4.6.6
 get_storage: ^2.1.1
 
 google_maps_flutter: ^2.10.0
+
 permission_handler: ^11.3.1
+
 location: ^8.0.0
+
 move_to_background: ^1.0.2
+
 flutter_local_notifications: ^18.0.1
+
 geocoding: ^3.0.0
 
 GetX is an extra-light and powerful solution for Flutter. It combines high-performance state management, intelligent dependency injection, and route management quickly and practically.
