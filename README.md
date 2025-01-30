@@ -22,7 +22,9 @@ On the profile page the user can see and edit there personal information and upd
 
 # Third Party Libraries Used
 get: ^4.6.6
+
 get_storage: ^2.1.1
+
 google_maps_flutter: ^2.10.0
 permission_handler: ^11.3.1
 location: ^8.0.0
