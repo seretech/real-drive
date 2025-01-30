@@ -20,6 +20,32 @@ On the history page the user can see all list of rides initiated previous and an
 
 On the profile page the user can see and edit there personal information and update their password as well.
 
+# Third Party Libraries Used
+get: ^4.6.6
+get_storage: ^2.1.1
+google_maps_flutter: ^2.10.0
+permission_handler: ^11.3.1
+location: ^8.0.0
+move_to_background: ^1.0.2
+flutter_local_notifications: ^18.0.1
+geocoding: ^3.0.0
+
+GetX is an extra-light and powerful solution for Flutter. It combines high-performance state management, intelligent dependency injection, and route management quickly and practically.
+
+Get Storage is a fast, extra light and synchronous key-value in memory, which backs up data to disk at each operation. It is written entirely in Dart and easily integrates with Get framework of Flutter.
+
+Google maps flutter is a Flutter plugin for integrating Google Maps in iOS and Android applications in our case used for displaying users location and pickup and drop off location selection.
+
+Permission Handler is a plugin that provides a cross-platform (iOS, Android) API to request and check permissions in our case used for asking location permission.
+
+Location is Cross-platform plugin for easy access to device's location in real-time in our case used for get the user current location on the app is opened.
+
+Move to background is a flutter plugin for sending application to background in our case for minimizing the application.
+
+Flutter Local Notification is a cross platform plugin for displaying and scheduling local notifications for Flutter applications with the ability to customise for each platform in our case used for sending push notification when a driver is found.
+
+Geocoding is a plugin which provides easy geocoding and reverse-geocoding features in our case used for convert the location selected on the map(longitude and latitude) to physical address for users clarity.
+
 **NOTE**
 
 According to the task use case the first time a ride is confirm a countdown of 15 seconds is started to simulate a no driver found interface only when the retry button is clicked will driver be returned.
